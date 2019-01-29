@@ -15,7 +15,7 @@ namespace WebEcomics.Models
 
 
 
-        public virtual ICollection<Productos> Productos { get; set; }
-        public virtual ICollection<Compras> Compras { get; set; }
+        public virtual ICollection<Producto> Producto { get; set; }
+        public virtual ICollection<Compra> Compra { get; set; }
     }
 }
