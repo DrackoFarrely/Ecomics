@@ -10,6 +10,6 @@ namespace WebEcomics.Models
         public string Id { get; set; }
         public string nombre_cat { get; set; }
 
-        public virtual ICollection<Producto> producto;
+        public ICollection<Producto> producto;
     }    
 }
