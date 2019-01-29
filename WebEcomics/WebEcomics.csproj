@@ -140,6 +140,14 @@
     <Compile Include="App_Start\RouteConfig2.cs" />
     <Compile Include="App_Start\RouteConfig3.cs" />
     <Compile Include="Controllers\CategoriasController.cs" />
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <Compile Include="Controllers\DireccionController.cs" />
+=======
+    <Compile Include="Controllers\CompraController.cs" />
+>>>>>>> 9bf56276c131a294028e75baaaf9abdf0c7cecc4
+=======
+>>>>>>> 00156a9b8f8b9d59e0d3514efa42fb290e0c3456
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ProveedorController.cs" />
     <Compile Include="Global.asax.cs">
@@ -192,12 +200,16 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Categorias\Create.cshtml" />
     <Content Include="Views\Categorias\Details.cshtml" />
+<<<<<<< HEAD
+    <Content Include="Views\Direccion\Details.cshtml" />
+=======
     <Content Include="Views\Proveedor\Details.cshtml" />
     <Content Include="Views\Proveedor\Create.cshtml" />
     <Content Include="Views\Proveedor\Edit.cshtml" />
     <Content Include="Views\Proveedor\Delete.cshtml" />
     <Content Include="Views\Proveedor\Index.cshtml" />
     <Content Include="Views\Categorias\Delete.cshtml" />
+>>>>>>> 00156a9b8f8b9d59e0d3514efa42fb290e0c3456
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
