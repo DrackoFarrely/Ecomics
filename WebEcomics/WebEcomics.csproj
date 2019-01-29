@@ -139,8 +139,15 @@
     </Compile>
     <Compile Include="Models\Categorias.cs" />
     <Compile Include="Models\Compra.cs" />
+<<<<<<< HEAD
+    <Compile Include="Models\Detalle.cs" />
+=======
     <Compile Include="Models\Direccion.cs" />
+<<<<<<< HEAD
     <Compile Include="Models\Producto.cs" />
+=======
+>>>>>>> 66725e4237fc3d6b3094448ab1f5b23550aec52e
+>>>>>>> 5bf97189867133fd7e97cc02b38e194b557b0d27
     <Compile Include="Models\Proveedor.cs" />
     <Compile Include="Models\Usuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
