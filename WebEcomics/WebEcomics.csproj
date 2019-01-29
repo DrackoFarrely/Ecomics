@@ -139,6 +139,7 @@
     </Compile>
     <Compile Include="Models\Categorias.cs" />
     <Compile Include="Models\Proveedor.cs" />
+    <Compile Include="Models\Usuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
