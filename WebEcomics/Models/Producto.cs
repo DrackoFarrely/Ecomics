@@ -1,7 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel;
 using System.Linq;
 using System.Web;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace WebEcomics.Models
 {
@@ -27,7 +30,7 @@ namespace WebEcomics.Models
         public DateTime Fecha_reg { set; get; }
 
 
-        public virtual Categoria Categoria { get; set; }
+        public virtual Categorias Categoria { get; set; }
         public virtual Proveedor Proveedor { get; set; }
     }
 }
