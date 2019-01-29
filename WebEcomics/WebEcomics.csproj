@@ -142,6 +142,7 @@
     <Compile Include="Controllers\CategoriasController.cs" />
     <Compile Include="Controllers\CompraController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\UsuariosController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -196,6 +197,7 @@
     <Content Include="Views\Compra\CrearCompra.cshtml" />
     <Content Include="Views\Compra\EliminarCompra.cshtml" />
     <Content Include="Views\Compra\EditarCompra.cshtml" />
+    <Content Include="Views\Usuarios\Create.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
