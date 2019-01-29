@@ -1,0 +1,50 @@
+﻿@model WebEcomics.Models.Compra
+
+@{
+    ViewBag.Title = "DetallesCompra";
+}
+
+<h2>DetallesCompra</h2>
+
+<div>
+    <h4>Compra</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Idcompra)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Idcompra)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Id_usuario)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Id_usuario)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.fecha)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.fecha)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.totalcompra)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.totalcompra)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

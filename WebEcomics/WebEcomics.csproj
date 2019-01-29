@@ -140,8 +140,14 @@
     <Compile Include="App_Start\RouteConfig2.cs" />
     <Compile Include="App_Start\RouteConfig3.cs" />
     <Compile Include="Controllers\CategoriasController.cs" />
+<<<<<<< HEAD
     <Compile Include="Controllers\DireccionController.cs" />
+=======
+    <Compile Include="Controllers\CompraController.cs" />
+>>>>>>> 9bf56276c131a294028e75baaaf9abdf0c7cecc4
     <Compile Include="Controllers\HomeController.cs" />
+	<Compile Include="Controllers\ProductoController.cs" />
+
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -196,7 +202,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\Compra\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
