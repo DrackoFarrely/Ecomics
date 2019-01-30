@@ -26,10 +26,10 @@ namespace WebEcomics.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-HO55ELP;Initial Catalog=WebEcomics;Integrated Security=True")]
-        public string conecte {
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-MEAEICB;Initial Catalog=BDWebEcomics;User ID=sa;Password=123")]
+        public string Conn {
             get {
-                return ((string)(this["conecte"]));
+                return ((string)(this["Conn"]));
             }
         }
     }

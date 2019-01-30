@@ -147,7 +147,6 @@
     <Compile Include="Controllers\DireccionController.cs" />
     <Compile Include="Controllers\CompraController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\ProductoController.cs" />
     <Compile Include="Controllers\ProveedorController.cs" />
     <Compile Include="Controllers\UsuariosController.cs" />
     <Compile Include="Global.asax.cs">
@@ -160,6 +159,7 @@
     <Compile Include="Models\Dominio\Producto.cs" />
     <Compile Include="Models\Dominio\Proveedor.cs" />
     <Compile Include="Models\Dominio\Usuario.cs" />
+    <Compile Include="Models\Entidades\UsuariosRepository.cs" />
     <Compile Include="Models\Infraestructura\ContextoEcmicsFactory.cs" />
     <Compile Include="Models\Infraestructura\ContextoEcomics.cs" />
     <Compile Include="Models\Infraestructura\IUnitofWork.cs" />
@@ -197,7 +197,13 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
-    <Content Include="Web.config" />
+    <Content Include="Views\Compra\CrearCompra.cshtml" />
+    <Content Include="Views\Compra\DetallesCompra.cshtml" />
+    <Content Include="Views\Compra\EditarCompra.cshtml" />
+    <Content Include="Views\Compra\EliminarCompra.cshtml" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
@@ -221,11 +227,14 @@
     <Content Include="Views\Categorias\Delete.cshtml" />
     <Content Include="Views\Direccion\Details.cshtml" />
     <Content Include="Views\Detalle\DetalleView.cshtml" />
+    <Content Include="Views\Usuarios\Create.cshtml" />
+    <Content Include="Views\Compra\CrearCompra.cshtml" />
+    <Content Include="Views\Compra\DetallesCompra.cshtml" />
+    <Content Include="Views\Compra\EditarCompra.cshtml" />
+    <Content Include="Views\Compra\EliminarCompra.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\Entidades\" />
-    <Folder Include="Views\Compra\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
