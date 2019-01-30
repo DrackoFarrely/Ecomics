@@ -147,18 +147,29 @@
     <Compile Include="Controllers\DireccionController.cs" />
     <Compile Include="Controllers\CompraController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ProductoController.cs" />
     <Compile Include="Controllers\ProveedorController.cs" />
+    <Compile Include="Controllers\UsuariosController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\Categorias.cs" />
-    <Compile Include="Models\Compra.cs" />
-    <Compile Include="Models\Detalle.cs" />
-    <Compile Include="Models\Direccion.cs" />
-    <Compile Include="Models\Producto.cs" />
-    <Compile Include="Models\Proveedor.cs" />
-    <Compile Include="Models\Usuario.cs" />
+    <Compile Include="Models\Dominio\Categorias.cs" />
+    <Compile Include="Models\Dominio\Compra.cs" />
+    <Compile Include="Models\Dominio\Detalle.cs" />
+    <Compile Include="Models\Dominio\Direccion.cs" />
+    <Compile Include="Models\Dominio\Producto.cs" />
+    <Compile Include="Models\Dominio\Proveedor.cs" />
+    <Compile Include="Models\Dominio\Usuario.cs" />
+    <Compile Include="Models\Infraestructura\ContextoEcmicsFactory.cs" />
+    <Compile Include="Models\Infraestructura\ContextoEcomics.cs" />
+    <Compile Include="Models\Infraestructura\IUnitofWork.cs" />
+    <Compile Include="Models\Infraestructura\UnitofWork.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap-theme.css" />
@@ -171,6 +182,10 @@
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
@@ -209,6 +224,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Models\Entidades\" />
     <Folder Include="Views\Compra\" />
   </ItemGroup>
   <ItemGroup>
