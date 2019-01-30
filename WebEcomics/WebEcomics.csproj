@@ -156,6 +156,17 @@
     <Compile Include="Models\Compra.cs" />
     <Compile Include="Models\Detalle.cs" />
     <Compile Include="Models\Direccion.cs" />
+    <Compile Include="Models\Dominio\Categorias.cs" />
+    <Compile Include="Models\Dominio\Compra.cs" />
+    <Compile Include="Models\Dominio\Detalle.cs" />
+    <Compile Include="Models\Dominio\Direccion.cs" />
+    <Compile Include="Models\Dominio\Producto.cs" />
+    <Compile Include="Models\Dominio\Proveedor.cs" />
+    <Compile Include="Models\Dominio\Usuario.cs" />
+    <Compile Include="Models\Infraestructura\ContextoEcmicsFactory.cs" />
+    <Compile Include="Models\Infraestructura\ContextoEcomics.cs" />
+    <Compile Include="Models\Infraestructura\IUnitofWork.cs" />
+    <Compile Include="Models\Infraestructura\UnitofWork.cs" />
     <Compile Include="Models\Producto.cs" />
     <Compile Include="Models\Proveedor.cs" />
     <Compile Include="Models\Usuario.cs" />
@@ -230,6 +241,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Models\Entidades\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
