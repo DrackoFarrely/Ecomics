@@ -69,13 +69,7 @@ artifacts/
 *.pidb
 *.svclog
 *.scc
-*.config
 
-Settings.Designer.cs
-Settings.settings
-
-Web.config
-Web.Debug.config
 
 # Chutzpah Test files
 _Chutzpah*
