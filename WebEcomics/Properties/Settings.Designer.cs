@@ -26,10 +26,11 @@ namespace WebEcomics.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-HO55ELP;Initial Catalog=WebEcomics;Integrated Security=True")]
-        public string conecte {
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=LAPTOP-H4LPL763;Initial Catalog=ComicsWebDatos;Integrated Security=Tr" +
+            "ue")]
+        public string conexion {
             get {
-                return ((string)(this["conecte"]));
+                return ((string)(this["conexion"]));
             }
         }
     }
