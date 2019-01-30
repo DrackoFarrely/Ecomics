@@ -74,6 +74,9 @@ artifacts/
 Settings.Designer.cs
 Settings.settings
 
+Web.config
+Web.Debug.config
+
 # Chutzpah Test files
 _Chutzpah*
 
@@ -94,7 +97,7 @@ ipch/
 *.vspx
 *.sap
 
-Web.config
+
 
 # TFS 2012 Local Workspace
 $tf/
