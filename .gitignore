@@ -69,6 +69,7 @@ artifacts/
 *.pidb
 *.svclog
 *.scc
+*.config
 
 # Chutzpah Test files
 _Chutzpah*
@@ -89,6 +90,8 @@ ipch/
 *.vsp
 *.vspx
 *.sap
+
+Web.config
 
 # TFS 2012 Local Workspace
 $tf/
